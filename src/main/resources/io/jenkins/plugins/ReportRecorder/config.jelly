@@ -1,0 +1,19 @@
+<?jelly escape-by-default='true'?>
+<j:jelly
+    xmlns:j="jelly:core"
+    xmlns:st="jelly:stapler"
+    xmlns:d="jelly:define"
+    xmlns:l="/lib/layout"
+    xmlns:t="/lib/hudson"
+    xmlns:f="/lib/form"
+    xmlns:s="/lib/samples">
+
+    <s:sample title="Sample">
+        <f:entry title="报告路径" field="reportPath">
+            <f:textbox />
+        </f:entry>
+        <f:entry title="报告名" field="reportName">
+            <f:textbox />
+        </f:entry>
+    </s:sample>
+</j:jelly>
